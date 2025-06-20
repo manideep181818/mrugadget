@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3,3,58);
+    color: white;
+    padding: 20px 40px
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 4px;
+    gap: 25px;
+    background-color: rgb(231, 231, 241);
+}
+
+.hero-img img{
+    width: 400px;
+    height: auto;
+}
+
+.hero-text h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.hero-text p{
+    margin-bottom: 30px;
+}
+            
+.hero button{
+    padding: 15px 30px;
+    background-color: rgb(6, 6, 79);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero button:hover{
+    background-color: rgb(30, 30, 222);
+}
+
+.hero-text{
+    max-width: 500px;
+}
+
+.features{
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px 20px;
+    gap: 20px;
+    text-align: center  ;
+}
+
+.feature{
+    flex: 1 1 250px;
+    background-color:  rgb(203, 203, 241);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.hai{
+    text-align: center;
+}
+
+.product-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.product-gallery{
+    padding: 40px 20px;
+}
+
+.product-card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:0 0 10px grey;
+    transition: .3s ease;
+}
+
+.product-card:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.Last-second{
+    text-align: center;
+    background-color: rgb(88, 88, 241);
+    padding: 50px;
+    color: white;
+}
+
+input[type="email"] {
+    height: 35px;
+    width: 17%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Last-second form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Last-second button{
+    color: blue;
+    height:35px;
+    width: 8%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(9, 3, 36);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
